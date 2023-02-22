@@ -33,7 +33,7 @@ namespace _1_ConsoleOr
             //_19RastgeleSayı();
             //_20Banknot();
             //ReferansTipler();
-            ForNot();
+            //ForNot();
             Console.Read();
         }
 
