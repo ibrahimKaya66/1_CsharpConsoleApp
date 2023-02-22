@@ -33,18 +33,22 @@ namespace _1_ConsoleOr
             //_19RastgeleSayı();
             //_20Banknot();
             //ReferansTipler();
+            ForNot();
+            Console.Read();
+        }
 
+        private static void ForNot()
+        {
             //Girilen 10 notun kaç tanesi 50 ve altıdır?
             Console.WriteLine("10 Not  Giriniz");
             int count = 0;
             for (int i = 0; i < 10; i++)
             {
                 int note = int.Parse(Console.ReadLine());
-                if(note<=50)
+                if (note <= 50)
                     count++;
             }
             Console.WriteLine(count);
-            Console.Read();
         }
 
         private static void ReferansTipler()
